@@ -1,0 +1,49 @@
+.App {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  /* to ensure there's scrollable space */
+  background-color: black;
+  overflow-x: hidden;
+  /* prevent horizontal scrolling */
+}
+
+body {
+  background-color: black;
+}
+
+.CenteredText {
+  position: fixed;
+  left: 35%;
+  transform: translateX(-50%);
+  width: 70%;
+  margin-left: 15%;
+  text-align: justify;
+  font-size: 3.5rem;
+  white-space: pre-wrap;
+  font-weight: 600;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.Logo {
+  position: fixed;
+  top: 3em;
+  left: 2em;
+  width: 35px;
+  height: 35px;
+  filter: invert(100%);
+}
+
+.JoinButton {
+  position: fixed;
+  top: 3em;
+  right: 2em;
+  padding: .815rem 1.232rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.7rem;
+  color: black;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 15px;
+}
